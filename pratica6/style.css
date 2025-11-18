@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+header > p {
+    display: inline-block;
+}
+
+div#qinicial {
+    padding-bottom: 50px;
+    vertical-align: top;
+}
+
+div.qinicial {
+    display: inline-block;
+    padding: 50px 100px 0px 0px;
+}
+
+div.imagem {
+    width: 300px;
+    display: inline-block;
+
+}

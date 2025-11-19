@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 
+header {
+    height: 50px;
+    background-color: rgb(48, 197, 48);
+}
+
 header > p {
     display: inline-block;
 }

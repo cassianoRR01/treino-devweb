@@ -1,9 +1,65 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Sriracha&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee3e3;
+}
 
 header {
-    height: 50px;
-    background-color: rgb(48, 197, 48);
+    margin: -8px -8px 20px -8px;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+header > p > a {
+    font-weight: bolder;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #75b848;
+}
+
+header > p {
+    padding: 5px 5px 5px 15px;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 400px;
+    padding: 20px;
+    position: relative;
+}
+
+main q {
+    color: #009443;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.sectexto a {
+    color: rgb(6, 182, 0);
+    text-decoration: none;
+}
+
+main h1 {
+    font-family: "Boldonse", system-ui;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #ff9900;
+}
+
+main h2, h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    color: #009443;
 }
 
 header > p {
@@ -24,4 +80,38 @@ div.imagem {
     width: 300px;
     display: inline-block;
 
+}
+
+.ler > a {
+    font-size: 0.8em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgba(238, 35, 35, 0.753);
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.ler > a:hover {
+    background-color: rgb(247, 21, 21);
+}
+
+footer {
+    background-color: #f18a23;
+    font-weight: bold;
+    color: white;
+    margin: 5px -8px -8px -8px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #006e32;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

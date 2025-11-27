@@ -19,6 +19,9 @@ body {
     font-family: var(--fonte1);
     margin: 0px;
     background-color: var(--cor3);
+    background-image: url(imagens/fundo-mar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
